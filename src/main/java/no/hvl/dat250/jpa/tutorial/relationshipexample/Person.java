@@ -31,4 +31,54 @@ public class Person {
 
   //Getters and setters
 
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getFirstName() {
+    return firstName;
+  }
+
+  public void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  public String getLastName() {
+    return lastName;
+  }
+
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  public Family getFamily() {
+    return family;
+  }
+
+  public void setFamily(Family family) {
+    this.family = family;
+  }
+
+  public String getNonsenseField() {
+    return nonsenseField;
+  }
+
+  public void setNonsenseField(String nonsenseField) {
+    this.nonsenseField = nonsenseField;
+  }
+
+  public List<Job> getJobList() {
+    return jobList;
+  }
+
+  public void setJobList(List<Job> jobList) {
+    this.jobList = jobList;
+  }
+
+  
+
 }
