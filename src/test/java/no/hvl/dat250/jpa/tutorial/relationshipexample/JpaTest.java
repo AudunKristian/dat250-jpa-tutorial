@@ -12,6 +12,7 @@ import jakarta.persistence.Query;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
 public class JpaTest {
 
     private static final String PERSISTENCE_UNIT_NAME = "jpa-tutorial";
