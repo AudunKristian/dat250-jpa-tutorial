@@ -19,12 +19,12 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
 application {
-    mainClass = "no.hvl.dat250.jpa.tutorial.basicexample.Main"
+    mainClass.set("no.hvl.dat250.jpa.tutorial.basicexample.Main")
 }
 
 
