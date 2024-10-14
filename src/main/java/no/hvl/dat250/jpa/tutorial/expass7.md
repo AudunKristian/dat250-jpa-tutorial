@@ -31,11 +31,11 @@
 
 * I set up the dockerfile and was able to make the container. I first ran the command ./gradlew build, and i then ran the docker build command like this:
 
-![5](./Expass7_images/img_5.JPG)
+![5](./Expass7_images/img_5.jpg)
 
 * The dockerfile looks like this:
 
-![6](./Expass7_images/img_6.JPG)
+![6](./Expass7_images/img_6.jpg)
 
 Here is the [docker file](https://github.com/AudunKristian/demo/blob/main/Dockerfile) in the context of Expass 3.   
 
